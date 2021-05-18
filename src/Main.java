@@ -7,12 +7,7 @@ public class Main {
         int bonusLimit = 1000; // Лимит который нужно внести чтобы получить бонус
         int bonusConditions = 100; // Сумма за которую дают бонус
         double bonus = 0;
-<<<<<<< HEAD
         if (refill > bonusLimit) {
-=======
-        
-        if (refill >= bonusLimit) {
->>>>>>> 6765463bef0ae9d55068b519ae1815ab1e710de0
             bonus = (int) refill / bonusConditions * depositBonus;
         }
         System.out.println("The bonus is " + bonus + " rubles");
